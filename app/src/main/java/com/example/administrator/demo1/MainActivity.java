@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         text = (TextView) findViewById(R.id.text);
         text.setText(new NdkJniUtils().getCLanguageString());
         text.setText("");
+        text.setText("123");
         btnCrop.setOnClickListener(this);
         btnCancel.setOnClickListener(this);
 
