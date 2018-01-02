@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 h = myCropView.getHeight() ;
                 handler.sendEmptyMessage(1001);
 
+                handler.sendEmptyMessage(1003);
 
             }
         });
