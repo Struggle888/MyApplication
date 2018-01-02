@@ -90,7 +90,7 @@ public class MyCropViews extends View {
 
     private float mBorderHeight;
 
-
+    private float mBorderHeights;
     private int touchPos;
 
 
